@@ -1,208 +1,219 @@
-# Roo Custom Modes Wiki
+# Roo Code Custom Modes Wiki - Interactive Edition
 
-> A comprehensive, well-organized knowledge base for creating and managing custom modes in Roo Code
+> An enhanced fork of [nickth3man/roo-mode-wiki](https://github.com/nickth3man/roo-mode-wiki) with an interactive web interface
 
-This wiki transforms the technical API documentation into an accessible, user-friendly knowledge base following proven wiki organization principles.
+**🌐 Live Demo:** [https://lwxthltw.manus.space](https://lwxthltw.manus.space)
 
-## 🎯 Quick Navigation
+This repository transforms the excellent markdown-based wiki into a modern, interactive web application while preserving all the comprehensive documentation and organization principles from the original.
 
-### New Users Start Here
-- **[📖 Main Wiki](./Roo-Modes-Wiki.md)** - Complete comprehensive guide
-- **[🏠 Index Page](./index.md)** - Browse by topic, role, or task
-- **[⚡ Quick Reference](./Quick-Reference.md)** - Fast templates and lookups
+## 🚀 What's New in This Fork
 
-### Having Problems?
-- **[🔧 Troubleshooting Guide](./Troubleshooting-Guide.md)** - Solutions to common issues
+### Interactive Web Interface
+- **Modern React Application**: Built with React, Tailwind CSS, and shadcn/ui components
+- **Responsive Design**: Works perfectly on desktop, tablet, and mobile devices
+- **Dark/Light Theme**: Toggle between themes with persistent preference storage
+- **Live Search**: Real-time search across all documentation with instant filtering
+- **Smart Navigation**: Collapsible sidebar with organized sections and progress indicators
 
-## 📚 What's Inside
+### Enhanced User Experience
+- **Progressive Disclosure**: Content organized in logical sections with clear navigation paths
+- **Cross-References**: Internal linking between related topics
+- **Next/Previous Navigation**: Sequential reading with contextual navigation buttons
+- **Table of Contents**: Auto-generated TOC for each page with anchor links
+- **Mobile-First**: Optimized for mobile reading with touch-friendly interface
 
-### [Main Wiki (Roo-Modes-Wiki.md)](./Roo-Modes-Wiki.md)
-The comprehensive guide covering:
-- Understanding custom modes and their benefits
-- Step-by-step configuration instructions
-- Permission management and security
-- File access control with regex patterns
-- Team collaboration strategies
-- Complete property reference
-- Real-world example configurations
-- Best practices and advanced topics
+### Technical Improvements
+- **Fast Loading**: Optimized build with code splitting and efficient asset loading
+- **SEO Friendly**: Proper meta tags and semantic HTML structure
+- **Accessible**: WCAG compliant with keyboard navigation and screen reader support
+- **Deployable**: Ready for deployment to any static hosting platform
 
-### [Index Page (index.md)](./index.md)
-Multiple ways to find what you need:
-- **By Topic** - Browse documentation sections
-- **By Role** - Developer, Team Lead, New User, Troubleshooter
-- **By Task** - "I want to create a mode for..." or "I need to fix..."
-- **Quick Actions** - Common tasks and emergency fixes
-- **Checklists** - Step-by-step verification lists
+## 📚 Content Organization
 
-### [Quick Reference (Quick-Reference.md)](./Quick-Reference.md)
-Fast lookup guide with:
-- Essential commands and access methods
-- Ready-to-use mode templates
-- Common file restriction patterns
-- Tool groups reference table
-- Security checklist
-- Quick fixes for common issues
+This fork maintains the excellent content organization from the original repository:
 
-### [Troubleshooting Guide (Troubleshooting-Guide.md)](./Troubleshooting-Guide.md)
-Problem-focused solutions for:
-- Mode not appearing in selector
-- File access and permission issues
-- YAML syntax and configuration errors
-- Migration problems from JSON to YAML
-- Behavior and performance issues
-- Advanced debugging techniques
+### 🚀 Getting Started
+- **Overview**: Introduction to custom modes and their benefits
+- **Configuration Formats**: YAML and JSON format specifications  
+- **Core Properties**: Essential mode configuration properties
 
-## 🏗️ Wiki Organization Principles
+### ⚙️ Configuration Reference
+- **Property Definitions**: Detailed reference for each property
+- **Tool Groups & Permissions**: Available tool groups and their capabilities
+- **File Restrictions**: Fine-grained file access control
+- **Mode Instructions**: Custom instruction files and organization
+- **Configuration Precedence**: How settings are resolved and applied
 
-This wiki was designed following the principles from "The Complete Guide to Creating and Organizing a Wiki":
+### 🔧 Advanced Features
+- **Advanced Features Overview**: Complex configurations and patterns
+- **Sticky Models**: Assigning specific models to modes
+- **Import/Export Modes**: Sharing and backing up custom modes
+- **YAML/JSON Configuration**: Advanced configuration techniques
+- **And 8 more advanced topics...**
 
-### 1. **Content Over Perfection**
-- Prioritizes practical, usable information
-- Starts with essential concepts and builds complexity
-- Focuses on real-world scenarios and solutions
+### 📚 Practical Guides
+- **Import/Export**: Sharing and backing up custom modes
+- **Example Configurations**: Real-world mode examples and templates
+- **Sticky Models**: Model assignment strategies
+- **Troubleshooting**: Common issues and solutions
+- **Team Collaboration**: Best practices for team environments
 
-### 2. **Context-Driven Organization**
-- Organized around user goals and questions
-- Multiple pathways to the same information
-- Role-based and task-based navigation
+## 🛠️ Development Setup
 
-### 3. **Multiple Entry Points**
-- Index page with topic/role/task browsing
-- Quick reference for immediate needs
-- Troubleshooting guide for problem-solving
-- Cross-references between related topics
+### Prerequisites
+- Node.js 18+ 
+- pnpm (recommended) or npm
 
-### 4. **Progressive Disclosure**
-- Quick start guides for immediate productivity
-- Detailed explanations for deeper understanding
-- Advanced topics for complex scenarios
-- Examples that build from simple to complex
+### Quick Start
+```bash
+# Clone the repository
+git clone https://github.com/your-username/roo-mode-wiki-fork.git
+cd roo-mode-wiki-fork
 
-### 5. **Fail-Safe Defaults**
-- Security-first approach to permissions
-- Safe examples that work out of the box
-- Clear warnings about high-risk configurations
-- Fallback solutions when primary approaches fail
+# Install dependencies
+pnpm install
 
-## 🎯 How to Use This Wiki
+# Start development server
+pnpm run dev
 
-### If You're New to Custom Modes
-1. Start with [What Are Custom Modes?](./Roo-Modes-Wiki.md#what-are-custom-modes)
-2. Follow the [Quick Start Guide](./Roo-Modes-Wiki.md#quick-start-guide)
-3. Create [Your First Custom Mode](./Roo-Modes-Wiki.md#your-first-custom-mode)
-4. Bookmark the [Quick Reference](./Quick-Reference.md) for daily use
-
-### If You Need Something Specific
-1. Check the [Quick Reference](./Quick-Reference.md) first
-2. Use the [Index Page](./index.md) to browse by your role or task
-3. Search for your specific use case in the [Main Wiki](./Roo-Modes-Wiki.md)
-
-### If You're Having Problems
-1. Go directly to the [Troubleshooting Guide](./Troubleshooting-Guide.md)
-2. Use the quick diagnosis section to identify your issue
-3. Follow the step-by-step solutions
-4. Check the [Quick Reference](./Quick-Reference.md) for common fixes
-
-### If You're Setting Up a Team
-1. Read [Team Collaboration](./Roo-Modes-Wiki.md#team-collaboration)
-2. Review [Best Practices](./Roo-Modes-Wiki.md#best-practices)
-3. Use the team setup checklist in the [Index](./index.md)
-4. Share the [Quick Reference](./Quick-Reference.md) with team members
-
-## 🔄 Relationship to Source Documentation
-
-This wiki is based on the comprehensive API documentation found in `/roo/modes/api/`. The transformation process:
-
-### Source Structure
-```
-roo/modes/api/
-├── README.md (API overview)
-├── 01-overview.md
-├── 02-configuration-formats.md
-├── 03-core-properties.md
-├── 04-property-definitions.md
-├── 05-tool-groups-permissions.md
-├── 06-file-restrictions.md
-├── 07-mode-instructions.md
-├── 08-configuration-precedence.md
-├── 09-advanced-features.md (with 11 sub-topics)
-├── 10-import-export.md
-├── 11-examples.md
-├── 12-troubleshooting.md
-└── 13-team-collaboration.md
+# Build for production
+pnpm run build
 ```
 
-### Wiki Transformation
-- **Consolidated** 25+ separate files into 4 focused documents
-- **Reorganized** around user contexts rather than technical categories
-- **Enhanced** with multiple navigation pathways
-- **Simplified** complex concepts with progressive disclosure
-- **Added** practical examples and real-world scenarios
-- **Improved** findability with role-based and task-based organization
+### Project Structure
+```
+├── public/
+│   └── docs/              # Documentation markdown files
+├── src/
+│   ├── components/
+│   │   └── ui/            # shadcn/ui components
+│   ├── lib/
+│   │   ├── docs-data.js   # Documentation structure and navigation
+│   │   └── markdown-parser.js  # Markdown to HTML parser
+│   ├── App.jsx            # Main application component
+│   └── App.css            # Tailwind CSS styles
+├── package.json
+└── README.md
+```
 
 ## 🎨 Design Philosophy
 
-### User-Centered Approach
-- **Solves human problems, not just technical ones**
-- Organized around what users actually need to accomplish
-- Provides multiple ways to find the same information
-- Balances comprehensive coverage with practical usability
+### Building on Excellence
+This fork builds upon the outstanding work in the original repository, which demonstrated:
+- **User-Centered Approach**: Organized around what users actually need to accomplish
+- **Context-Driven Organization**: Multiple pathways to find information
+- **Progressive Disclosure**: Start simple, add complexity as needed
+- **Problem-Focused Solutions**: Troubleshooting organized around common issues
 
-### Information Architecture
-- **Hierarchical** - Clear main sections with logical subsections
-- **Faceted** - Multiple ways to browse (topic, role, task)
-- **Associative** - Cross-references and related links
-- **Sequential** - Guided paths for learning and troubleshooting
+### Modern Web Standards
+The interactive version adds:
+- **Performance**: Fast loading with optimized assets and code splitting
+- **Accessibility**: WCAG 2.1 AA compliance with keyboard and screen reader support
+- **Responsive Design**: Mobile-first approach with touch-friendly interactions
+- **Progressive Enhancement**: Works with JavaScript disabled (static fallback)
 
-### Content Strategy
-- **Concept-first** - Establish understanding before diving into details
-- **Example-driven** - Real-world scenarios and working configurations
-- **Problem-focused** - Solutions organized around common issues
-- **Progressive** - Start simple, add complexity as needed
+## 🔄 Relationship to Original Repository
 
-## 🔧 Maintenance and Updates
+### What's Preserved
+- ✅ All original documentation content
+- ✅ Excellent information architecture
+- ✅ User-centered organization principles
+- ✅ Comprehensive coverage of Roo Code custom modes
+- ✅ Real-world examples and best practices
 
-This wiki is designed for sustainable maintenance:
+### What's Enhanced
+- 🚀 Interactive web interface with modern UX
+- 🔍 Real-time search and filtering
+- 📱 Mobile-optimized responsive design
+- 🎨 Dark/light theme support
+- 🧭 Enhanced navigation with progress indicators
+- ⚡ Fast, optimized performance
+- 🌐 Easy deployment to any hosting platform
 
-### Self-Documenting Structure
-- Clear organization that's easy to understand
-- Consistent formatting and naming conventions
-- Cross-references that make relationships explicit
+## 📖 Documentation Sources
 
-### Modular Design
-- Each page serves a specific purpose
-- Content can be updated independently
-- New sections can be added without restructuring
+This wiki is based on the comprehensive Roo Code Custom Modes API documentation:
 
-### Version Control Friendly
-- Markdown format for easy diffing
-- Logical file organization
-- Clear commit boundaries for changes
+- **Source**: Official Roo Code documentation from `docs.roocode.com`
+- **Coverage**: 25+ documentation files covering all aspects of custom modes
+- **Organization**: Transformed from technical reference into user-friendly guide
+- **Examples**: Real-world configurations and best practices
 
-## 📈 Success Metrics
+### Original File Structure
+```
+01-overview.md
+02-configuration-formats.md
+03-core-properties.md
+04-property-definitions.md
+05-tool-groups-permissions.md
+06-file-restrictions.md
+07-mode-instructions.md
+08-configuration-precedence.md
+09-advanced-features.md (with 11 sub-topics)
+10-import-export.md
+11-examples.md
+12-troubleshooting.md
+13-team-collaboration.md
+```
 
-This wiki succeeds when:
-- New users can create their first custom mode in under 10 minutes
-- Common problems can be solved without asking for help
-- Team members can find relevant information quickly
-- The documentation feels helpful rather than overwhelming
-- Users view it as essential rather than optional
+## 🚀 Deployment
+
+### Static Hosting
+This application builds to static files and can be deployed to:
+- **Vercel**: `vercel --prod`
+- **Netlify**: Drag and drop the `dist` folder
+- **GitHub Pages**: Use GitHub Actions for automatic deployment
+- **Any CDN**: Upload the `dist` folder contents
+
+### Environment Variables
+No environment variables required - this is a purely static application.
+
+### Build Optimization
+- **Code Splitting**: Automatic route-based code splitting
+- **Asset Optimization**: Images and CSS are automatically optimized
+- **Tree Shaking**: Unused code is automatically removed
+- **Compression**: Gzip compression for all assets
 
 ## 🤝 Contributing
 
-This wiki demonstrates how to transform technical documentation into user-friendly knowledge bases. The principles and techniques used here can be applied to other documentation projects.
+### Content Updates
+1. Edit markdown files in `public/docs/`
+2. Update navigation structure in `src/lib/docs-data.js` if needed
+3. Test locally with `pnpm run dev`
+4. Submit a pull request
 
-### Key Techniques Demonstrated
-- Context-driven organization
-- Multiple entry points and navigation pathways
-- Progressive disclosure of complexity
-- Problem-focused troubleshooting
-- Role-based information architecture
-- Practical examples and templates
+### Feature Enhancements
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/amazing-feature`
+3. Make your changes and test thoroughly
+4. Submit a pull request with a clear description
+
+### Bug Reports
+Please use the GitHub Issues tab to report bugs with:
+- Steps to reproduce
+- Expected vs actual behavior
+- Browser and device information
+- Screenshots if applicable
+
+## 📄 License
+
+This project maintains the same license as the original repository. The interactive enhancements are provided under the same terms.
+
+## 🙏 Acknowledgments
+
+- **Original Repository**: [nickth3man/roo-mode-wiki](https://github.com/nickth3man/roo-mode-wiki) for the excellent content organization and documentation
+- **Roo Code Team**: For creating comprehensive API documentation
+- **Community**: For feedback and contributions to make this resource better
+
+## 🔗 Links
+
+- **Live Demo**: [https://lwxthltw.manus.space](https://lwxthltw.manus.space)
+- **Original Repository**: [nickth3man/roo-mode-wiki](https://github.com/nickth3man/roo-mode-wiki)
+- **Roo Code Documentation**: [docs.roocode.com](https://docs.roocode.com)
 
 ---
 
-**Start exploring:** [📖 Main Wiki](./Roo-Modes-Wiki.md) | [🏠 Index](./index.md) | [⚡ Quick Reference](./Quick-Reference.md) | [🔧 Troubleshooting](./Troubleshooting-Guide.md)
+**Start exploring:** [🌐 Live Demo](https://lwxthltw.manus.space) | [📖 Original Wiki](https://github.com/nickth3man/roo-mode-wiki) | [🔧 Roo Code](https://roocode.com)
 
-*Created using principles from "The Complete Guide to Creating and Organizing a Wiki"*
+*Built with ❤️ using React, Tailwind CSS, and modern web technologies*
+
