@@ -207,8 +207,7 @@ This project maintains the same license as the original repository. The interact
 
 ## 🔗 Links
 
-- **Live Demo**: [https://lwxthltw.manus.space](https://lwxthltw.manus.space)
-- **Original Repository**: [nickth3man/roo-mode-wiki](https://github.com/nickth3man/roo-mode-wiki)
+
 - **Roo Code Documentation**: [docs.roocode.com](https://docs.roocode.com)
 
 ---
